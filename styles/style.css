@@ -1,0 +1,206 @@
+.navColor {
+    background: -webkit-linear-gradient(top, #d84641, #b01fe9, #06a8f3);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.trips:hover {
+    transform: scale(1.1);
+}
+
+.trips:hover .gradient-trips {
+    background: -webkit-linear-gradient(top, #d84641, #b01fe9, #06a8f3);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.main-icons {
+    width: fit-content;
+    margin-right: 5px;
+}
+
+.icon {
+    font-size: 50px;
+    color: #064250;
+}
+
+.icon:hover {
+    color: #18c2fb;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-for-cards-fateh {
+    background-color: #94ced5;
+}
+
+.bg-for-cards-ghamea {
+    background-color: #4e808b;
+    font-weight: normal;
+}
+
+.color-ghamea {
+    color: #064250;
+
+}
+
+.cover-image {
+    background-image: url(https://cdn.thecollector.com/wp-content/uploads/2020/07/relief-mentuhotep-ii-hathor-middle-kingdom-egypt.jpg?width=1080&quality=70);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card-overlay::after {
+    position: absolute;
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(30, 197, 183);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card-overlay:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card-overlay::before {
+    position: absolute;
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+
+    background-color: rgb(30, 197, 183);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card-overlay:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.cover-image2 {
+    background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/18/9e/df.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.thanks-image {
+    width: 100px;
+    height: 130px;
+    margin-top: 133px;
+    border: 2px rgb(196, 183, 183) solid;
+    transition: 0.5s;
+}
+
+.card-back {
+    background: url(https://cdn.monkplatform.com/image/czoyMjg6Imh0dHBzJTNBJTJGJTJGMzFiYWE5MjA0MDExYTRiNzM3M2QtNGI0NWM2MjdiNDc4OTA0YjRkOThiYzMyYjRiZTkyOTEuc3NsLmNmMi5yYWNrY2RuLmNvbSUyRnVwbG9hZGVkJTJGcCUyRjBlNjA3Njg4OF8xNDkwODA2ODc2X3BleGVscy1waG90by05MDgwNy5qcGVnJTNGcSUzRDkwJTI2dyUzRDMyMDAlMjZoJTNEMCUyNmZpdCUzRG1heCUyNnMlM0RjOGQxODJmYjQ1NThjOTc1MTM3ZjJjM2MzZmM3ZTAxYSI7/pexels-photo-90807.jpeg?fm=webp);
+    background-size: cover;
+}
+
+.card-back1 {
+    background: url(https://cdn.monkplatform.com/image/czoyMzE6Imh0dHBzJTNBJTJGJTJGMzFiYWE5MjA0MDExYTRiNzM3M2QtNGI0NWM2MjdiNDc4OTA0YjRkOThiYzMyYjRiZTkyOTEuc3NsLmNmMi5yYWNrY2RuLmNvbSUyRnVwbG9hZGVkJTJGYyUyRjBlMTM2MTI0OTJfMTY0MjQ1NTA2Ml9jc2V0LWJhbm5lci0yMDIyLXdlYi5wbmclM0ZxJTNEOTAlMjZ3JTNENjAwJTI2aCUzRDQ2NCUyNmZpdCUzRG1heCUyNnMlM0QxOTI2N2Y5MjE3NDM0OTQ0NmEzNDBmYWQ5MzA5OGJmYSI7/cset-banner-2022-web.png?fm=webp);
+    background-size: cover;
+}
+
+.card-back2 {
+    background: url(https://www.utm.ac.mu/utm/wp-content/uploads/2022/02/BSC-SoftwareEngineering-scaled-340x200.jpg);
+    background-size: cover;
+}
+
+.card-back-overlay {
+    background-color: rgba(83, 84, 102, 0.737);
+    height: inherit;
+}
+
+.hoveration {
+    transition: 0.5s;
+}
+
+.hoveration:hover {
+    transform: scale(0.9);
+}
+
+.hoveration:hover .card-back-overlay {
+    background-color: rgba(46, 51, 148, 0.737);
+}
+
+.hoveration h5 {
+    transition: 0.5s;
+}
+
+.hoveration:hover h5 {
+    padding-top: 20px;
+}
+
+.hoveration:hover .thanks-image {
+    margin-top: 110px;
+}
+
+.line01 {
+    height: 4px;
+    width: 60px;
+    background-color: #0c709e;
+    transition: 0.5s;
+}
+
+.btn-hov1:hover {
+    background-color: #0c709e;
+}
+
+.back-card-l1 {
+    background: -webkit-linear-gradient(left, #e3f2f9, #fff);
+    overflow: hidden;
+    width: 80%;
+    box-shadow: 20px 20px 50px #e5c0e8;
+}
+
+.back-card-l1:hover .line01 {
+    width: 100px;
+}
+
+.img-card-l1 {
+    clip-path: polygon(11% 0, 100% 0%, 100% 100%, 22% 100%);
+    transition: 0.5s;
+    width: 100%;
+    height: 410px;
+    transform: scale(1.1);
+
+}
+
+.back-card-l1:hover .img-card-l1 {
+    transform: scale(1.19);
+}
+.shadwing{
+    box-shadow: 20px 20px 50px #99779c;
+}
+.logo{
+    width: 60px; 
+    height: 60px
+}
+.line-height{
+    line-height: 30px;
+}
